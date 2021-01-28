@@ -416,7 +416,7 @@ plt.show()
 
 
     
-image: assets/img/project8/output_8_0.jpg
+image:https://github.com/manisatya009/009/blob/master/assets/img/project8/output_8_0.png
     
 
 
@@ -440,7 +440,7 @@ g.add_legend()
 
 
     
-![png](output_9_1.png)
+![img](output_9_1.png)
     
 
 
@@ -458,6 +458,7 @@ g.add_legend()
 
 
     <seaborn.axisgrid.FacetGrid at 0x1cbb5cfb208>
+
 
 
 
