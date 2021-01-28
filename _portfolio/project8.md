@@ -416,7 +416,7 @@ plt.show()
 
 
     
-![png](output_8_0.png)
+thumbnail: assets/img/project8/output_8_0.jpg
     
 
 
