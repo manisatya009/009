@@ -1,3 +1,18 @@
+---
+title: Project Name
+subtitle: Lorem ipsum dolor sit amet consectetur.
+image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/06-full.jpg
+alt: 
+
+caption:
+  title: Linear
+  subtitle: Photography
+  thumbnail: assets/img/portfolio/monte1.jpg
+---
+
+
+
+
 ```python
 import numpy as np
 import pandas as pd
