@@ -4,10 +4,10 @@ header:
     button: Tell Me More
     buttonlink: "#services" # "#{section}" or "URL/page link"
 
-Intrests:
+services:
     title: "Intrests"
     text: "Problem Solving with Data"
-    section: Intrests
+    section: services
     list:
       - title: "Product Analytics"
         desc: "Performance Measurement of Product & Reporting"
