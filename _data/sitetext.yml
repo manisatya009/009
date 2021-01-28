@@ -74,7 +74,7 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: " Real Projects"
+    title: " Live Projects"
     text: "Synchrony"
     subtext:  "**Markdown** supported."
     section: team
