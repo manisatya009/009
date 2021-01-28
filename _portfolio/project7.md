@@ -10,12 +10,6 @@ caption:
   thumbnail: assets/img/portfolio/montecarlo.jpg
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-Female    112
-Male       88
-Name: Gender, dtype: int64
-
-data.drop(['CustomerID'],axis =1).describe()
-
 
 {:.list-inline}
 - Date: October 2019
