@@ -416,7 +416,7 @@ plt.show()
 
 
     
-thumbnail: assets/img/project8/output_8_0.jpg
+image: assets/img/project8/output_8_0.jpg
     
 
 
