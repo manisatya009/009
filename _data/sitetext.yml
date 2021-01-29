@@ -86,6 +86,7 @@ team:
       - name: "Pay as Guest"
         role: "Payment Platform"
         image: assets/img/team/1.jpg
+        social:
           - url: https://amazon.syf.com/login/
             icon : fas fa-link
 
