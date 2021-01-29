@@ -86,7 +86,6 @@ team:
       - name: "Pay as Guest"
         role: "Payment Platform"
         image: assets/img/team/1.jpg
-        social:
           - url: https://amazon.syf.com/login/
             icon : fab fa-link
 
@@ -100,7 +99,6 @@ team:
       - name: "Scan & Go"
         role: "Campagin Analysis"
         image: assets/img/team/3.jpg
-        social:
           - url: https://twitter.com
             icon: "fab fa-external-link-square-alt"
            
