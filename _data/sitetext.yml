@@ -102,7 +102,7 @@ team:
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-          icon: fab fa-angle-double-right
+            icon: fab fa-angle-double-right
            
            
 footer:
