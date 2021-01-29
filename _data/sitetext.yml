@@ -17,7 +17,7 @@ services:
         icon: fas fa-ad       
       - title: "Automating"
         desc: "Using Python "
-        icon: fab fa-cogs
+        icon: fas fa-cogs
 
 portfolio:
     title: "Portfolio"
@@ -87,20 +87,19 @@ team:
         role: "Payment Platform"
         image: assets/img/team/1.jpg
           - url: https://amazon.syf.com/login/
-            icon : fab fa-link
+            icon : fas fa-link
 
       - name: "Ebill Flip Campagin"
         role: "Strategy Building"
         image: assets/img/team/2.jpg
-        social:
           - url: https://twitter.com
-            icon: fab fa-external-link-square-alt
+            icon: fas fa-external-link-square-alt
 
       - name: "Scan & Go"
         role: "Campagin Analysis"
         image: assets/img/team/3.jpg
           - url: https://twitter.com
-            icon: "fab fa-external-link-square-alt"
+            icon: "fas fa-external-link-square-alt"
            
            
 footer:
