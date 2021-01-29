@@ -14,10 +14,10 @@ services:
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Marketing Analytics"
         desc: "Campagin Measurement "
-        icon: fas fa-laptop       
+        icon: fas fa-ad       
       - title: "Automating"
         desc: "Using Python "
-        icon: fab fa-markdown
+        icon: fab fa-cogs
 
 portfolio:
     title: "Portfolio"
@@ -61,17 +61,21 @@ clients:
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "sql"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/1.jpg
       - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/2.jpg
       - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/3.jpg
       - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+        #url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/4.jpg
+      - title: "Creative Market"
+        #url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/5.jpg
+    
     
 team:
     title: " Live Projects"
@@ -81,29 +85,25 @@ team:
     people:
       - name: "Pay as Guest"
         role: "Payment Platform"
-        url: https://amazon.syf.com/login/
         image: assets/img/team/1.jpg
+        social:
+          - url: https://amazon.syf.com/login/
+            icon : fab fa-angle-double-right
 
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Ebill Flip Campagin"
+        role: "Strategy Building"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+            icon: fab fa-angle-double-right
+
+      - name: "Scan & Go"
+        role: "Campagin Analysis"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          icon: fab fa-angle-double-right
+           
            
 footer:
     legal: "Privacy Policy"
