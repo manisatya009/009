@@ -16,7 +16,7 @@ services:
         desc: "Campagin Measurement "
         icon: fas fa-ad       
       - title: "Applied Machine Learning"
-        desc: "Using Python "
+        desc: "Linear,Logistic,Decision Tree,Tests"
         icon: fas fa-laptop-code
 
 portfolio:
