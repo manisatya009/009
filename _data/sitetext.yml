@@ -87,13 +87,8 @@ team:
         role: "Payment Platform"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
+          - url: https://amazon.syf.com/login/
+            icon : fas fa-link
 
       - name: "Ebill Flip Campagin"
         role: "Strategy Building"
@@ -116,12 +111,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-           
- contact:
-    title: "Contact Me"
-    text: "Send a message or call 9000818385"
-    section: contact
-    
+               
 
 footer:
     legal: "Privacy Policy"
