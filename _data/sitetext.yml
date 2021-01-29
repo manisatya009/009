@@ -17,7 +17,7 @@ services:
         icon: fas fa-ad       
       - title: "Automating"
         desc: "Using Python "
-        icon: fas fa-cogs
+        icon: fas fa-laptop-code
 
 portfolio:
     title: "Portfolio"
@@ -92,16 +92,31 @@ team:
       - name: "Ebill Flip Campagin"
         role: "Strategy Building"
         image: assets/img/team/2.jpg
+        social:
           - url: https://twitter.com
-            icon: fas fa-external-link-square-alt
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
       - name: "Scan & Go"
         role: "Campagin Analysis"
         image: assets/img/team/3.jpg
+        social:
           - url: https://twitter.com
-            icon: "fas fa-external-link-square-alt"
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
            
-           
+ contact:
+    title: "Contact Me"
+    text: "Send a message or call 9000818385"
+    section: contact
+    
+
 footer:
     legal: "Privacy Policy"
     social: 
