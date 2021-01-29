@@ -95,14 +95,14 @@ team:
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-link
+            icon: fab fa-external-link-square-alt
 
       - name: "Scan & Go"
         role: "Campagin Analysis"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: "fab fa-link"
+            icon: "fab fa-external-link-square-alt"
            
            
 footer:
