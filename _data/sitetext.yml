@@ -31,13 +31,13 @@ timeline:
     section: timeline
     events:
       - title: "Amrita University"
-        year: "Jun 2013- Jun 2017"
+        year: "Jun 2013 - Jun 2017"
         desc: "Bachelors in Mechanical Engineering"
         image: assets/img/timeline/1.jpg
         alt: 
         align: left
       - title: "International Institute of Digital Technologies"
-        year: " Jan 2018- Nov 2018"
+        year: " Jan 2018 - Nov 2018"
         desc: "Diploma in Business Analytics"
         image: assets/img/timeline/2.jpg
         alt: 
@@ -48,7 +48,7 @@ timeline:
         image: assets/img/timeline/3.jpg
         alt: image alt text
         #align: #default is left       
-    end: "Still <br> Loading!"
+    end: "Be Part <br> of <br> my future!"
 
 about:
     title: "About Us"
@@ -60,18 +60,18 @@ clients:
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
+      - title: "sql"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: assets/img/clients/1.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: assets/img/clients/2.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: assets/img/clients/3.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: assets/img/clients/4.jpg
     
 team:
     title: " Live Projects"

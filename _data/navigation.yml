@@ -11,3 +11,6 @@ nav:
   - title: "Live Projects"
     section: team
 
+  -title: "Skills"
+    section: clients
+
