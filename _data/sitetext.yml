@@ -15,7 +15,7 @@ services:
       - title: "Marketing Analytics"
         desc: "Campagin Measurement "
         icon: fas fa-ad       
-      - title: "Automating"
+      - title: "Applied Machine Learning"
         desc: "Using Python "
         icon: fas fa-laptop-code
 
