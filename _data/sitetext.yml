@@ -88,21 +88,21 @@ team:
         image: assets/img/team/1.jpg
         social:
           - url: https://amazon.syf.com/login/
-            icon : fab fa- link
+            icon : fab fa-link
 
       - name: "Ebill Flip Campagin"
         role: "Strategy Building"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa- link
+            icon: fab fa-link
 
       - name: "Scan & Go"
         role: "Campagin Analysis"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
-            icon: "fab fa- link"
+            icon: "fab fa-link"
            
            
 footer:
