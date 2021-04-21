@@ -103,7 +103,11 @@ team:
         social:
           - url: https://twitter.com
             icon : fas fa-link
-               
+
+contact:
+    title: "Contact Me?"
+    text: "Call 9000818385 or leave a message"
+    section: contact               
 
 footer:
     legal: "Privacy Policy"
