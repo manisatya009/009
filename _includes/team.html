@@ -1,37 +1,317 @@
+<style media="screen">
+  .team {
+    margin: auto;
+  }
+
+  .team-member {
+    margin: 15px 0;
+  }
+
+  .team-member figure {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .team-member figure img {
+    width: 80%;
+  }
+
+  .team-member figcaption p {
+    font-size: 16px;
+  }
+
+  .team-member figcaption ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-member figcaption ul {
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .team-member figcaption ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .team-member h4 {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+
+  .team-member figcaption {
+    padding: 50px;
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    z-index: 996;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .team-member figure:hover figcaption {
+    visibility: visible;
+    color: #fff;
+    background: rgba(51, 116, 196, 0.4);
+    /* Primary color, can be changed via colors.css */
+
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .team-member figure:hover figcaption ul li a:hover {
+    color: rgba(49, 49, 49, .97);
+  }
+
+  .team-member figure img {
+    -webkit-transform: scale(1) rotate(0) translateY(0);
+    -moz-transform: scale(1) rotate(0) translateY(0);
+    -o-transform: scale(1) rotate(0) translateY(0);
+    -ms-transform: scale(1) rotate(0) translateY(0);
+    transform: scale(1) rotate(0) translateY(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .team-member figure:hover img {
+    -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+    transform: scale(1.1) rotate(1deg) translateY(12px);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+</style>
+
 <!-- Team -->
 <section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
-<div class="container">
-  <div class="row">
-	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for person in site.data.sitetext.team.people %}
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+          <a href={{ person.url }}>
+            <h4>{{ person.name }}</h4>
+          </a>
+          <p class="text-muted">{{ person.role }}</p>
+          <ul class="list-inline social-buttons">
+            {% for network in person.social %}
+            <li class="list-inline-item">
+              <a href="{{ network.url }}">
+                <i class="{{ network.icon }}"></i>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <br><br>
+    <!-- Our team Section -->
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1>Faculty Core Team</h1>
+        <h5 class="text-muted">Department of Computer Science and Engineering, DTU</h5>
+      </div><!-- /.col-md-12 -->
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/vinod.png" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/vinod-kumar-0380aa30">
+                <h4>Dr. Vinod Kumar</h4>
+              </a>
+              <p>Associate Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/ruchika.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/ruchika-malhotra-05373836">
+                <h4>Dr. Ruchika Malhotra</h4>
+
+              </a>
+              <p>Associate Professor </p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/manoj.jpeg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/dr-manoj-kumar-7443b32b">
+                <h4>Dr. Manoj Kumar</h4>
+              </a>
+              <p>Associate Professor & Head (Computer Centre)</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/anil.png" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/dr-anil-singh-parihar-19427557">
+                <h4>Dr. Anil Singh</h4>
+
+              </a>
+              <p>Associate Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/rahul.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/dr-rahul-katarya-17928629">
+                <h4>Dr. Rahul Katarya</h4>
+              </a>
+              <p>Associate Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/shailendra.jpeg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/shailender-kumar-274b0677">
+                <h4>Dr. Shailendra Kumar</h4>
+
+              </a>
+              <p>Associate Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/rajesh.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="http://www.dtu.ac.in/Web/Departments/CSE/faculty/rajeshkyadav.php">
+                <h4>Dr. Rajesh Kumar</h4>
+
+              </a>
+              <p>Assistant Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-3">
+            <div class="team-member">
+              <figure>
+                <img src="../assets/img/coreteam/akshi.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <a href="https://www.linkedin.com/in/dr-akshi-kumar-4688b37/?originalSubdomain=in">
+                <h4>Dr. Akshi</h4>
+
+              </a>
+              <p>Assistant Professor</p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.row -->
   </div>
-  <div class="row">
-  {% for person in site.data.sitetext.team.people %}
-	<div class="col-sm-4">
-	  <div class="team-member">
-		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-		<h4>{{ person.name }}</h4>
-		<p class="text-muted">{{ person.role }}</p>
-		<ul class="list-inline social-buttons">
-		{% for network in person.social %}
-		  <li class="list-inline-item">
-			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
-			</a>
-		  </li>
-		{% endfor %}
-		</ul>
-	  </div>
-	</div>
-  {% endfor %}
-  </div>
-  <div class="row">
-	<div class="col-lg-8 mx-auto text-center">
-	  <div class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</div>
-	</div>
-  </div>
-</div>
 </section>
 <!-- End Team -->

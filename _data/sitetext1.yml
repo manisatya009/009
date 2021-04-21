@@ -1,0 +1,167 @@
+header:
+    title: Next generation Security and Analytics for Mobile Assisted RemoTe Healthcare (N-SAMARTH) Webinar
+    text: N-SAMARTH
+    button: Register Now
+    buttonlink: "https://docs.google.com/forms/d/e/1FAIpQLScWyod8vNIc9a2mNSy4LTii1TXdlvoEXG2HERNhWg74df9ePg/viewform?usp=sf_link"
+
+services:
+    title: "Objective"
+    text: "Samsung Digital Academy Research lab has been established in 2020 to harness  research in the areas of  mobile healthcare, artificial intelligence and cyber security. The N-SAMARTH webinar is being organized to present expert technical talks from industry and academia to address the next generation challenges of scalable and sustainable digital healthcare for a healthcare habitat to reach remote masses in India. Areas of talks: health care management, wearable IoT devices, high speed 5G communication, AI for predictive health analytics and cyber security."
+    # title: "Presented By"
+    section: objective
+    list:
+      - title: "[Delhi Technological University](/about)"
+        desc: ""
+        icon: /assets/img/dtulogo.png #find more at https://fontawesome.com/icons
+      - title: "[Department of Computer Science & Engineering](/about)"
+        desc: ""
+        icon: /assets/img/cselogo.png
+      # - title: "[Samsung Digital Academy Research Lab](https://www.samsung.com/in/)"
+      #   desc: ""
+      #   icon: /assets/img/samsunglogo.png
+
+portfolio:
+    title: "Keynote Speakers"
+    text: ""
+    section: portfolio
+    closebutton: "Close"
+
+
+timeline:
+    title: "Schedule"
+    text: "Click <strong> Here </strong> for Detailed Schedule"
+    section: timeline
+    link: /schedule
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Inauguration"
+        year: "January 12th, 2021, 15:00"
+        desc: "<p>Dr. Divyashikha Sethia, Assistant Professor, Department of CSE, DTU - Welcome of Guests </p> <p> Prof. Rajni Jindal, HoD, Department of CSE, DTU - Welcome Address </p> <p> Prof. Yogesh Singh, Vice Chancellor, DTU - Address by Hon'ble VC </p> <p> Prof. Huzur Saran, Former HoD Department of CSE, IIT Delhi - Address </p> <p> Dr. Aruna Bhat, Associate Professor, Department of CSE, DTU - Vote of Thanks </p>"
+        image: assets/img/inaug.jpg
+        alt:
+      - title: "Technical Session 1"
+        year: "January 12th, 2021, 15:30"
+        desc: "<p> Dr. Rajiv Shorey, CEO UQUIDAR - Health IoT Cybersecurity </p> <p>Prof. Huzur Saran, Former HoD Department of CSE, IIT Delhi - 5G Healthcare </p>  <p> Mr. Manoj Sanker, Cofounder Nemocare - Infant Care IoT </p>"
+        image: assets/img/day1.jpg
+        alt:
+      - title: "Technical Session 2"
+        year: "January 13th, 2021, 15:00"
+        desc: "<p>Brejesh Lall, Former HoD Bharti School, IIT Delhi - IoT Healthcare Cybersecurity </p> <p> Prof. Kolin Paul, Department of CSE, IIT Delhi - Healthcare Analytics </p> <p> Mr. Rajat Garg, CEO MyUpchar - Tele-Medicine </p>"
+        image: assets/img/day2.jpg
+        alt: image alt text
+      - title: "Technical Session 3"
+        year: "January 14th, 2021, 15:00"
+        desc: "<p>Dr. Sriparna Saha, IIT Patna - Health Analytics</p> <p>Ankur Sood, Director, Samsung - Healthcare </p> <p> Bappa Mondal, Samsung Technical Team Lead - Mobile Security, Healthcare </p>"
+        image: assets/img/day3.jpg
+        alt:
+        # you can enforce the aligment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+# clients:
+#     section: clients
+#     max-height: 100px
+#     horizontal-scrolling: "" #"yes/no"
+#     list:
+#       - title: "envato"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/envato.jpg
+#       - title: "designmodo"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/designmodo.jpg
+#       - title: "themeforest"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/themeforest.jpg
+#       - title: "Creative Market"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/creative-market.jpg
+
+team:
+    title: "Organizing Team"
+    text: ""
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Prof. Yogesh Singh"
+        role: "<h6>Cheif Patron </h6> Honourable Vice Chancellor, Delhi Technological University"
+        image: assets/img/speakers/HVC.jfif
+        url: http://dtu.ac.in/Web/Administrations/Vice-Chancellor.php
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+      - name: "Prof. Rajni Jindal"
+        role: "<h6>Patron </h6> Head of Department, Department of Computer Science & Engineering, Delhi Technological University"
+        image: assets/img/speakers/HoD.jfif
+        url: https://www.linkedin.com/in/rajnijindal/
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/rajnijindal/
+          #   icon: fab fa-linkedin-in
+      - name: "Dr. Divyashikha Sethia"
+        role: "<h6>Coordinator </h6> Assistant Professor, Department of Computer Science & Engineering, Delhi Technological University"
+        image: assets/img/speakers/DrDivyaSethia.png
+        url: https://www.linkedin.com/in/divyasethia/
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/divyasethia/
+          #   icon: fab fa-linkedin-in
+      - name: "Dr. Aruna Bhat"
+        role: "<h6>Co-Cordinator</h6> Associate Professor, Department of Computer Science & Engineering, Delhi Technological University"
+        image: assets/img/speakers/ArunaBhat.png
+        url: http://www.dtu.ac.in/Web/Departments/CSE/faculty/arunabhat.php
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+      - name: "Ms. Minni Jain"
+        role: "<h6>Co-Cordinator</h6> Assistant Professor, Department of Computer Science & Engineering, Delhi Technological University"
+        image: assets/img/speakers/MsMinniJain.png
+        url: https://www.linkedin.com/in/minni-jain-45b221164/
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          # - url: https://facebook.com
+          #   icon: fab fa-facebook-f
+          # - url: https://www.linkedin.com/in/minni-jain-45b221164/
+          #   icon: fab fa-linkedin-in
+
+contact:
+    title: "Have a question?"
+    text: "Your questions will be mailed to speakers and a reply will be posted!"
+    section: contact
+
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

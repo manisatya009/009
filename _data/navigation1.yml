@@ -1,0 +1,21 @@
+nav:
+  - title: "Objective"
+    section: objective
+
+  - title: "Speakers"
+    section: portfolio
+
+  - title: "Schedule"
+    section: timeline
+
+  - title: "Team"
+    section: team
+
+  - title: "About Us"
+    url: "/about"
+
+  - title: "Youtube Stream"
+    url: "/stream"
+
+  - title: "Ask a question"
+    section: "contact"

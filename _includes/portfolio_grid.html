@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.portfolio %}
+      {% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -19,11 +19,13 @@
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
+          <a href={{project.caption.link}}>
+            <h4>{{ project.caption.title }}</h4>
+          </a>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
-	{% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>
